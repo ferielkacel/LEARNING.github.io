@@ -1,0 +1,139 @@
+.nav {
+  /*border: 1px solid #000;*/
+  background: var(--Tonal-background, #394264);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: auto;
+  font-weight: 900px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nuit {
+  background-color: #394264;
+}
+.first {
+  display: flex;
+}
+
+.droite {
+  padding-top: 90px;
+  padding-left: 200px; /* Change padding-left to padding-right */
+  font-family: "poppins";
+}
+
+.gauche img {
+  float: right; /* Change float to right */
+  margin-left: 20px; /* Add margin for spacing */
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin-left: auto;
+}
+
+.nav img {
+  margin-right: 10px;
+}
+.ul li {
+  cursor: pointer;
+}
+
+.ul li:hover {
+  color: #31a0fe;
+}
+.nav button {
+  margin-left: auto;
+  background-color: white;
+  border-radius: 15px;
+  height: 35px;
+  width: 100px;
+  border: white;
+  cursor: pointer;
+}
+
+.nav button:hover {
+  background-color: #31a0fe;
+}
+
+.big {
+  width: 440px;
+  flex-shrink: 0;
+  color: var(--text-color, #fff);
+  font-family: "poppins";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+
+body {
+  margin: 0;
+  border: 10px;
+}
+
+.droite {
+  padding-top: 90px;
+  padding-right: 200px;
+  font-family: "poppins";
+}
+
+#blue {
+  color: #31a0fe;
+}
+.sm {
+  color: #fff;
+  width: 300px;
+  color: var(--second-text-color, #ececec);
+  font-family: "poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.bt {
+  display: inline-block;
+}
+
+.bw {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+.first button {
+  background-color: white;
+  border-radius: 15px;
+  height: 35px;
+
+  width: 130px;
+  border: white;
+  cursor: pointer;
+}
+
+.first button:hover {
+  background-color: #31a0fe;
+  cursor: pointer;
+}
+
+.first .bl {
+  background-color: #31a0fe;
+  border-radius: 15px;
+  height: 35px;
+  width: 130px;
+  color: #fff;
+  margin-right: 50px;
+  border: white;
+  cursor: pointer;
+}
