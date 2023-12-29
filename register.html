@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="form-box register">
+      <h2>Registration</h2>
+      <form action="register.php" method="POST" class="signUpForm">
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </span>
+          <input type="email" class="signupemail" name="email" required />
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="bag-outline"></ion-icon>
+          </span>
+          <input
+            type="password"
+            class="signuppassword"
+            name="password"
+            required
+          />
+          <label>Password</label>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

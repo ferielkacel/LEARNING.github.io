@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website with a Login</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="signup.css" />
+    <script src="signup.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Micro Club</h2>
+    </header>
+
+    <div class="wrapper">
+      <span class="icon-close">
+        <ion-icon name="close-sharp"></ion-icon>
+      </span>
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="login.php" method="POST" class="loginForm">
+          <div class="input-box">
+            <span class="icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <input type="email" name="email" class="loginemail" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon">
+              <ion-icon name="bag-outline"></ion-icon>
+            </span>
+            <input
+              type="password"
+              name="password"
+              class="loginpassword"
+              required
+            />
+            <label>Password</label>
+          </div>
+
+          <button type="submit" class="btn" id="loginbtn">Login</button>
+
+          <div class="login-register">
+            <p>Don't have an account?</p>
+            <a type="button" class="btn" id="loginbtn" onclick="register()">
+              Register
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="account.js"></script>
+  </body>
+</html>
