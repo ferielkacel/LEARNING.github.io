@@ -1,5 +1,4 @@
 .nav {
-  /*border: 1px solid #000;*/
   background: var(--Tonal-background, #394264);
   color: white;
   display: flex;
@@ -24,23 +23,23 @@
 .droite {
   display: flex;
 
-  flex-direction: column; /* Change to column */
-  align-items: flex-start; /* Align items to start */
-  padding-top: 10px; /* Adjust padding as needed */
-  padding-left: 100px; /* Adjust padding as needed */
-  padding-left: 100px; /* Adjust padding as needed */
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-left: 100px;
   font-family: "poppins";
 }
 
 .gauche {
   padding-top: 50px;
-  padding-right: 90px; /* Change padding-left to padding-right */
+  padding-right: 90px;
   font-family: "poppins";
 }
 
 .gauche img {
-  float: right; /* Change float to right */
-  margin-left: 1px; /* Add margin for spacing */
+  float: right;
+  margin-left: 1px;
 }
 
 .ul {
@@ -88,7 +87,7 @@
   padding-bottom: 25px;
   font-style: normal;
   font-weight: bolder;
-  line-height: 64px; /* 133.333% */
+  line-height: 64px;
   letter-spacing: 0.2px;
 }
 
@@ -115,7 +114,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
 }
 
@@ -155,7 +154,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 200% */
+  line-height: 28px;
   letter-spacing: 0.2px;
   height: 35px;
   width: 130px;
@@ -166,11 +165,11 @@ body {
 }
 
 .bw img {
-  margin-right: 2px; /* Add margin between the two images */
+  margin-right: 2px;
 }
 
 .bw p {
-  margin-right: 70px; /* Add margin between the image and the text */
+  margin-right: 70px;
 }
 
 .bw {
@@ -182,7 +181,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 200% */
+  line-height: 28px;
   letter-spacing: 0.2px;
 }
 
@@ -207,8 +206,8 @@ body {
 }
 
 .box {
-  width: 368px; /* Adjust the width as needed */
-  height: 246px; /* Adjust the height as needed */
+  width: 368px;
+  height: 246px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -236,7 +235,7 @@ body {
   font-size: 14px;
 
   font-weight: 700;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
 }
 
@@ -247,7 +246,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.1px;
 }
 
@@ -269,7 +268,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 550;
-  line-height: 28px; /* 200% */
+  line-height: 28px;
   letter-spacing: 0.2px;
 
   color: #fff;
@@ -287,14 +286,14 @@ body {
   font-size: 30px;
   font-style: normal;
   font-weight: 800;
-  line-height: 57px; /* 142.5% */
+  line-height: 57px;
   letter-spacing: 1.3px;
 }
 
 .produits {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next row */
-  justify-content: space-evenly; /* Center the items both horizontally and vertically */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 10px;
   padding-right: 80px;
   padding-left: 80px;
@@ -302,14 +301,14 @@ body {
 }
 
 .po {
-  width: 350px; /* Adjust the width as needed */
-  height: 170px; /* Adjust the height as needed */
+  width: 350px;
+  height: 170px;
   background-color: #fff;
   border-radius: 8px;
   display: flex;
 
   align-items: center;
-  margin-bottom: 30px; /* Add margin between rows */
+  margin-bottom: 30px;
 }
 
 .po p {
@@ -386,7 +385,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 580;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
 }
 
@@ -431,7 +430,6 @@ body {
   margin-bottom: -10px;
 }
 
-
 .le p:nth-child(2) {
   color: #252b42;
   font-family: "poppins";
@@ -464,7 +462,7 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
 }
 
@@ -475,7 +473,7 @@ body {
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
-  line-height: 60px; /* 125% */
+  line-height: 60px;
   letter-spacing: 0.2px;
 }
 
@@ -484,18 +482,18 @@ body {
   text-align: center;
 
   /* paragraph */
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
 }
 
 .boxi {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three equal-sized columns */
-  gap: 10px; /* Adjust the gap as needed */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   padding-top: 50px;
   padding-right: 100px;
   padding-left: 100px;
@@ -517,8 +515,8 @@ body {
 }
 
 .smurf img {
-  width: 20px; /* Adjust the size as needed */
-  margin-right: 5px; /* Add margin for spacing */
+  width: 20px;
+  margin-right: 5px;
 }
 
 .smurf div > div {
@@ -546,7 +544,7 @@ body {
 }
 
 .uno p {
-  margin-top: -100px; /* Adjust the margin as needed to reduce spacing */
+  margin-top: -100px;
 }
 
 .le {
@@ -612,7 +610,7 @@ body {
 
   color: #252b42;
   margin-right: 50px;
-  border: 1px solid rgb(0, 0, 0); /* Added 'solid' for the border style */
+  border: 1px solid rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -713,7 +711,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 200% */
+  line-height: 28px;
   letter-spacing: 0.2px;
   height: 35px;
   width: 130px;
@@ -734,7 +732,7 @@ body {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 57px; /* 142.5% */
+  line-height: 57px;
   letter-spacing: 0.2px;
 }
 
@@ -744,7 +742,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
   padding-bottom: 100px;
 }
@@ -764,7 +762,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   letter-spacing: 0.2px;
   padding-bottom: 17px;
 }
@@ -780,7 +778,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.2px;
 }
 
@@ -793,7 +791,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.2px;
   padding-left: 1000px;
 }
@@ -808,6 +806,6 @@ body {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.2px;
 }
